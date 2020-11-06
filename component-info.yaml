@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "My Test Component"
+  description: "A component for testing"
+  annotations:
+    github.com/project-slug: "hooloovooo/fast-test-component"
+    backstage.io/techdocs-ref: github:https://github.com/hooloovooo/fast-test-component
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "hooloovooo"
