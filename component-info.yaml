@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "my-test-component"
+  name: "mytestcomponent"
   description: "A component for testing"
   annotations:
     github.com/project-slug: "hooloovooo/fast-test-component"
